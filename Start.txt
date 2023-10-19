@@ -1,0 +1,27 @@
+Переход в папку:
+cd IdeaProjects\TFTP
+
+Компиляция файлов:
+// встать на src
+javac -d bin com\suai\view\*.java com\suai\view\model\*
+
+Запуск файлов:
+// встать на src
+java -classpath ./bin com.suai.model.Server
+
+java -classpath ./bin com.suai.model.Client
+
+Запуск jar:
+// Server
+cd out\artifacts\TFTP_jar
+java -jar TFTP.jar
+
+// Client
+cd out\artifacts\TFTP_jar2
+java -jar TFTP.jar
+
+
+
+Запуск тестов:
+javac -cp .;junit-4.XX.jar;hamcrest-core-1.3.jar *.java // ???
+
