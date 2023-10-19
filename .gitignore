@@ -1,0 +1,9 @@
+.idea/
+bin/
+Jar/
+lib/
+out/
+src/test
+src/bin
+TFTP.iml
+Start.txt
